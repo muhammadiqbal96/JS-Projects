@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left, lightblue, lightgreen);
+    padding: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 19px;
+    font-family: Agbalumo;
+}
+
+.boxcontainer {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 40px;
+    justify-content: center;
+}
+
+.note {
+    text-align: justify;
+    font-size: 16px;
+    font-family: ubuntu;
+    background-color: rgb(36, 35, 35, 0.4);
+    color: blue;
+}
+
+.note,
+#btn {
+    border-radius: 5px;
+    width: 290px;
+    padding: 5px;
+    height: 180px;
+}
+
+#btn {
+    background-color: rgb(255, 255, 254, 0.27);
+    border: none;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 70px;
+    color: rgb(102, 99, 99);
+}
+
+#btn:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+    border: 2px solid blac;
+}
+
+.del {
+    width: 30px;
+    border-radius: 40px;
+    color: red;
+    position: relative;
+    left: 250px;
+    top: -40px;
+    cursor: pointer;
+}
